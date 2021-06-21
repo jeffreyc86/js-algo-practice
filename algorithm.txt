@@ -1,0 +1,35 @@
+Algorithm - A process or set of steps to accomplish a certain task
+
+Steps to Problem Solving
+
+1. Understand the Problem
+    - Can you restate the problem in your own words?
+    - What are the inputes that go into the problem
+    - What are the outputs that should come from the solution to the problem?
+    - Can the outputs be determined from the inputs? Is there enough information to solive the problem?
+    - How should the important pieces of data be labeled?
+
+2. Concrete Examples
+    - Examples can help you understand the problem better & also provide sanity checks that your eventual solution works as it should
+    - Start with simple Examples
+    - Progress with more complex Examples
+    - Explore examples with empty inputs - edge cases
+    - Explore examples with invalid inputs - edge cases
+
+3. Break it down
+    - Explicity write out the steps you need to take
+        - forces you to think about the code before you write it
+    - Write out the process and steps BEFORE YOU START TO CODE 
+
+4. Solve or Simplify
+    - Solve problem if you can
+    - If you CAN NOT solve the problem, solve a simpler problem
+
+5. Look Back and Refactor
+    - Can you check the result?
+    - Can you derice the result differently?
+    - Can you understand it at a glance?
+    - Can you use the result or method for some other problem?
+    - Can you improve the performance of your solution? - Time and space complexity
+    - Can you think of other ways to refactor?
+    - How have other people solved this problem?
