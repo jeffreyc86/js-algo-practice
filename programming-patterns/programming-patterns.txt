@@ -8,4 +8,11 @@ Multiple Pointers Pattern
     - Creating pointers or values that correspond to an index or position and move towards the beginning, middle, or end based on a ertain contition
     - Very efficient for solving with minimal space complexity
 
+Sliding Window Pattern
+    - Involves creating a windon which can either be an array or number from one position to another
+    - Depending on a certain condition, the window wither increase or closes (and a new window is created)
+    - Very useful for keeping track of a subset of data in an array/string/etc.
 
+Divide and Conquer Pattern
+    - Involves dividing a data set into smaller chunks and then repeating a process with asubset of data
+    - This pattern can tremendously decrease time complexity
