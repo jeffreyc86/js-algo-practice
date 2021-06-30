@@ -1,0 +1,9 @@
+Recursion - taking one problem and doing it over and over on a smaller piece or changing piece
+
+What is recursion?
+  A process (a function in our case) that calls itself
+  - Recursive functions keep pushing new functions onto the call stack
+
+Call stack - A stack data structure
+  - Any time a function is invoked it is placed (pushed) on the top of the call stack
+  - When JavaScript sees the return keyword or when the function ends, the compiler will remove (pop)

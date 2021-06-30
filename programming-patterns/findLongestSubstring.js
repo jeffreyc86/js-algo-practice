@@ -10,6 +10,10 @@ function findLongestSubstring(str) {
 
   for (let i = 0; i < str.length; i++) {
     let char = str[i];
+
+    // check if this character is within the dictionary
+    // if so, check if it is before or after the current start
+    // if after, change the start to the new starting point
     if (seen[char]) {
       start = Math.max(start, seen[char]);
     }
@@ -23,4 +27,4 @@ function findLongestSubstring(str) {
     return longest;
 }
 
-console.log(findLongestSubstring("bbbbb"))
+console.log(findLongestSubstring("thecatinthehat"))

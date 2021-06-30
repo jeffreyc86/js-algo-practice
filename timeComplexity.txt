@@ -1,0 +1,50 @@
+Time Complexity Summary
+
+Big O: O(1)
+Phrase: Constant
+Max Input: N/A
+Popular Algorithm: Hash algorithm
+Explanation: Same amount of work, regardless of the input size
+
+Big O: O(log N)
+Phrase: Logarithmic
+Max Input: large
+Popular Algorithm: Binary search
+Explanation: Iterates through a fraction of the original input, usually recursively
+
+Big O: O(N)
+Phrase: Linear
+Max Input: ~million
+Popular Algorithm: Linear search
+Explanation: Cost increases at the same rate as input size increases
+
+Big O: O(N log N)
+Phrase: Linearithmic
+Max Input: ~million
+Popular Algorithm: Mergesort and Quicksort
+Explanation: Often appears when the depth of recursive calls is Logarithmic, but the total size of the input at each level or recurison stays the same
+
+Big O: O(N^2)
+Phrase: Polynomial - Quadratic
+Max Input: 5,000
+Popular Algorithm: Bubble sort
+Explanation: Often appears when comparing each element of a data structure to all other elements in that structure
+
+Big O: O(N^3)
+Phrase: Polynomial - Cubic
+Max Input: 500
+Popular Algorithm: Matrix multiplication, or Floyd-Warshal
+Explanation: Commonly appears in Dynamic Programming when we have O(N^2) subproblems (like substrings) and when we have an inner loop for each subproblem
+
+Big O: O(C^N)
+Phrase: Exponential
+Max Input: 20-30 when C=2
+Popular Algorithm: Subsets
+Explanation: Increasing the size of the input by 1 causes the cost to increase by a factor of C - Useful for backtracking
+
+Big O: O(N!)
+Phrase: Factorial
+Max Input: 12
+Popular Algorithm: Permutations, Travelling salesman
+Explanation: The calculation time increase at the pace of N! which means if N is 6 it's 5*4*3*2*1 = 120. This isn't so bad at low values, but quickly becomes impossible - for instance 10! takes 3 million options
+
